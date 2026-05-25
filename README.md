@@ -18,13 +18,26 @@ Full Stack Developer · Masters Student at Northeastern University
 
 ---
 
+## Deployment
+
+The site is deployed on GitHub Pages at:
+[Portfolio](https://aish6498-hub.github.io/portfolio)
+
+---
+
+## Design Doc
+
+[Design Doc](./DESIGN.md)
+
+---
+
 ## My Project Objective
 
 Build a personal homepage that functions as both a course deliverable and a real job-search portfolio. The site showcases work experience, projects, and skills through creative, interactive UI components built entirely from scratch — no libraries, no shortcuts.
 
 While this started as a curriculum assignment, I wanted to use the time to build something genuinely worthwhile — a portfolio that reflects my actual personality and creativity rather than a generic template. I have some frontend experience but never had the space to explore it creatively before. This project gave me that space.
 
-I drew inspiration from design blogs, portfolio showcases, and creative developer sites, and used it as an opportunity to learn techniques I hadn't worked with before — CSS keyframe animations, clip-path, the Web Audio API, IntersectionObserver, and 3D CSS transforms.
+I drew inspiration from design blogs, portfolio showcases, and creative developer sites, and used it as an opportunity to learn techniques I hadn't worked with before — CSS keyframe animations, clip-path, IntersectionObserver, and 3D CSS transforms.
 
 ### Creative additions beyond the brief
 
@@ -33,7 +46,7 @@ I drew inspiration from design blogs, portfolio showcases, and creative develope
 - **Typewriter effect** — a cycling phrase display below the portrait, built as a reusable ES6 module with configurable speed, delete rate, and pause duration
 - **Project carousel** — a custom-built card carousel with dot navigation, prev/next buttons
 - **Boba skills animation** — boba balls drop into a cup on scroll using `IntersectionObserver`, stack in a 2-3-4 hexagonal packing pattern, explode across the section on click, and show skill details on hover with a tooltip — all driven by a single ES6 module
-- **Web Audio** — a sound plays when the boba animation triggers, using the HTML Audio API with `currentTime` reset for replay
+- **Web Audio** — a sound plays when the boba animation triggers with `currentTime` reset for replay
 - **Work experience timeline** — alternating left-right scroll-triggered timeline with slide-in animations, award badges, sub-project labels, and impact numbers highlighted in accent colour
 - **Hero entrance animations** — staggered `fadeSlideUp` keyframe animations on the greeting, portrait, and typewriter text on page load
 - **Portrait glow pulse** — a continuous radial glow animation on the portrait border
@@ -44,20 +57,20 @@ I drew inspiration from design blogs, portfolio showcases, and creative develope
 
 ---
 
-## Screenshot
+## Screenshot/Gif
 
 Homepage:
-
-> `![Homepage screenshot](./assets/screenshots/homepage-1.png)`
+![Homepage screenshot](./assets/screenshots/homepage-1.png)
 
 Projects page:
 
-> `![Projects page screenshot](./assets/screenshots/projects-page.png)`
+![Projects page screenshot](./assets/screenshots/projects-page.png)
 
 About me page (AI generated):
 
-> `![About me screenshot](./assets/screenshots/about-page-1.png)`
-> `![About me timeline screenshot](./assets/screenshots/about-page-2.png)`
+![About me screenshot](./assets/screenshots/about-page-1.png)
+
+![About me timeline screenshot](./assets/screenshots/about-page-2.png)
 
 ---
 
@@ -75,7 +88,7 @@ About me page (AI generated):
 
 - HTML5 — semantic structure, accessibility attributes
 - CSS3 — custom properties, flexbox, grid, animations, `@keyframes`
-- ES6+ — modules (`type="module"`), `IntersectionObserver`, Web Audio API, `async/await`
+- ES6+ — modules (`type="module"`), `IntersectionObserver`, `async/await`
 - Font Awesome 6.5 — icons
 - Google Fonts — Playfair Display, DM Sans, Caveat
 
@@ -159,13 +172,6 @@ This is a static site — no compiler. All JS uses native ES6 modules (`type="mo
 
 ---
 
-## Deployment
-
-The site is deployed on GitHub Pages at:
-`https://aish6498-hub.github.io/portfolio/personal-homepage/`
-
----
-
 ## GenAI Usage
 
 This project used AI tools as a collaborative aid during development — not to generate the site, but to accelerate specific decisions and debug tricky interactions. All code was reviewed, understood, and adapted before use. The thinking, design decisions, and creative direction were entirely my own.
@@ -208,6 +214,8 @@ This project used AI tools as a collaborative aid during development — not to 
 "how do i replay a CSS animation every time a section scrolls into view?"
 
 "the skill detail panel is too small and hard to read, how do i make it more pronounced?"
+
+"create a clear and descriptive README including: Author, Class Link, Project Objective, Screenshot, Instructions to build"
 
 ```
 
