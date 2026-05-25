@@ -60,17 +60,19 @@ I drew inspiration from design blogs, portfolio showcases, and creative develope
 ## Screenshot/Gif
 
 Homepage:
-![Homepage screenshot](./assets/screenshots/homepage-1.png)
+![Homepage](./assets/screenshots/homepage-gif.gif)
 
 Projects page:
 
-![Projects page screenshot](./assets/screenshots/projects-page.png)
+![Projects page](./assets/screenshots/projects-page-gif.gif)
 
 About me page (AI generated):
 
-![About me screenshot](./assets/screenshots/about-page-1.png)
+![About me page](./assets/screenshots/about-gif.gif)
 
-![About me timeline screenshot](./assets/screenshots/about-page-2.png)
+Mobile view responsiveness captured:
+
+![Mobile view](./assets/screenshots/mobile-view.gif)
 
 ---
 
