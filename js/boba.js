@@ -37,6 +37,12 @@ const EXPLODE_POSITIONS = [
   { x: "35%", y: "35%" },
 ];
 
+const BASE =
+  window.location.hostname === "127.0.0.1" ||
+  window.location.hostname === "localhost"
+    ? ""
+    : "/portfolio";
+
 export function initBoba(sectionSelector) {
   const section = document.querySelector(sectionSelector);
   if (!section) return;
@@ -171,14 +177,16 @@ export function initBoba(sectionSelector) {
   function playBobaSound() {
     if (!dropSound) return;
     dropSound.currentTime = 0;
-    dropSound.play().catch(() => {});
+    dropSound.play().catch(() => {
+      console.error("Audio play issue");
+    });
   }
 
   // browser policy not letting me play on scroll without user interaction.
   // unlock audio on first user interaction
   function unlockAudio() {
     if (dropSound) return;
-    dropSound = new Audio("/assets/audio/boba-drop.mp3");
+    dropSound = new Audio(`${BASE}/assets/audio/boba-drop.mp3`);
     dropSound.volume = 0.1;
   }
 
