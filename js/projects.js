@@ -1,4 +1,4 @@
-// scroll-triggered fade-in for project sections
+import { initMobileNav } from "./navbar.js";
 
 function initProjectAnimations() {
   const sections = document.querySelectorAll(".project-detail, .project-wip");
@@ -32,6 +32,7 @@ function initAnchorScroll() {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
+  initMobileNav();
   initProjectAnimations();
   initAnchorScroll();
 });

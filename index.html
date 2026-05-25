@@ -33,6 +33,15 @@
   </head>
   <body>
     <header>
+      <!-- burger — outside navbar, top left -->
+      <button
+        class="nav-burger"
+        aria-label="Toggle navigation menu"
+        aria-expanded="false"
+      >
+        <i class="fa-solid fa-bars" aria-hidden="true"></i>
+      </button>
+
       <nav class="navbar">
         <ul class="nav-links nav-links--left">
           <li><a href="./projects.html">Projects</a></li>
@@ -66,6 +75,30 @@
           </li>
         </ul>
       </nav>
+      <!-- mobile menu — outside navbar -->
+      <div class="nav-mobile-menu" aria-hidden="true">
+        <ul class="nav-mobile-links">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./projects.html">Projects</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li>
+            <a
+              href="https://linkedin.com/in/aishwaryamohan1698"
+              target="_blank"
+              rel="noopener noreferrer"
+              >LinkedIn</a
+            >
+          </li>
+          <li>
+            <a
+              href="./assets/resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Resume</a
+            >
+          </li>
+        </ul>
+      </div>
     </header>
     <main>
       <section class="hero">

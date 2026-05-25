@@ -26,7 +26,7 @@ const DROP_POSITIONS = [
 ];
 
 const EXPLODE_POSITIONS = [
-  { x: "7%", y: "18%" },
+  { x: "11%", y: "18%" },
   { x: "82%", y: "12%" },
   { x: "23%", y: "82%" },
   { x: "73%", y: "58%" },

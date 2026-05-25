@@ -1,4 +1,4 @@
-// scroll-triggered timeline animations using IntersectionObserver
+import { initMobileNav } from "./navbar.js";
 
 export function initTimeline() {
   const items = document.querySelectorAll("[data-timeline]");
@@ -19,5 +19,6 @@ export function initTimeline() {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
+  initMobileNav();
   initTimeline();
 });

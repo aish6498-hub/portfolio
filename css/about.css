@@ -395,6 +395,7 @@ main {
     padding: 4rem 1.5rem;
     text-align: center;
     gap: 2rem;
+    height: auto;
   }
 
   .about-hero__image-wrapper {
