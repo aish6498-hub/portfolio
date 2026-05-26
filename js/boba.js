@@ -91,7 +91,7 @@ export function initBoba(sectionSelector) {
         }
       });
     },
-    { threshold: 0.4 },
+    { threshold: 0.4 }
   );
 
   observer.observe(section);
@@ -160,7 +160,7 @@ export function initBoba(sectionSelector) {
         detailTechs.textContent = SKILLS[skill] || "";
         detail.classList.add("is-visible");
       },
-      { passive: false },
+      { passive: false }
     );
   });
 

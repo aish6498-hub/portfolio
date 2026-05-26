@@ -12,7 +12,7 @@ export function initTimeline() {
         }
       });
     },
-    { threshold: 0.2 },
+    { threshold: 0.2 }
   );
 
   items.forEach((item) => observer.observe(item));

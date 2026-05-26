@@ -7,12 +7,12 @@ import { initMobileNav } from "./navbar.js";
 document.addEventListener("DOMContentLoaded", () => {
   initMobileNav();
   initTypewriter(".typewriter-text");
-  initTilt(".hero-portrait-wrapper");
+  initTilt();
   initCarousel(
     ".carousel-track",
     ".carousel-btn--prev",
     ".carousel-btn--next",
-    ".carousel-dots",
+    ".carousel-dots"
   );
   initBoba("#skills");
 });

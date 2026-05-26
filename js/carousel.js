@@ -2,7 +2,7 @@ export function initCarousel(
   trackSelector,
   prevSelector,
   nextSelector,
-  dotsSelector,
+  dotsSelector
 ) {
   const track = document.querySelector(trackSelector);
   const prevBtn = document.querySelector(prevSelector);

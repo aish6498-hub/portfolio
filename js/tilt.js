@@ -1,4 +1,4 @@
-export function initTilt(wrapperSelector) {
+export function initTilt() {
   const wrapper = document.querySelector(".hero-portrait-wrapper");
   const container = document.querySelector(".hero-portrait-container");
   const icons = document.querySelectorAll(".orbit-icon");
