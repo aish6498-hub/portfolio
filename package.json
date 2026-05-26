@@ -22,8 +22,10 @@
   "main": "index.html",
   "scripts": {
     "start": "live-server",
-    "lint": "eslint js/*.js",
-    "format": "prettier --write js/*.js",
+    "lint": "eslint js/**/*.js",
+    "lint:fix": "eslint js/**/*.js --fix",
+    "format": "prettier --write js/**/*.js",
+    "format:check": "prettier --check js/**/*.js",
     "test": "echo \"No tests yet\""
   },
   "devDependencies": {
